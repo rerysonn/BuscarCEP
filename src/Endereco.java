@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public record Endereco() {
+public record Endereco(String cep, String logradouro, String uf, String localidade, String complemento) {
 }
